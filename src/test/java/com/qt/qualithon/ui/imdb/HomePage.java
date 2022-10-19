@@ -35,6 +35,8 @@ public class HomePage extends Page {
         searchInput.sendKeys(movieTitle);
         searchInput.submit();
 
+       
+
         return new ResultsPage(this.testSession);
     }
 }

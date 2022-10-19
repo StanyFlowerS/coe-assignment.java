@@ -1,7 +1,9 @@
 package com.qt.qualithon;
 
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
@@ -13,6 +15,7 @@ public class TestSession {
 
     public TestSession(WebDriver driver){
         this.webDriver.set(driver);
+        
     }
 
     /**
@@ -65,6 +68,11 @@ public class TestSession {
      * @return    instance of TestSession with local google chrome browser
      **/
     public static TestSession ChromeTestSession(){
+//    	ChromeOptions chromeOptions = new ChromeOptions();
+//
+//        chromeOptions.setPageLoadStrategy(PageLoadStrategy.NONE);
+
+       
         return new TestSession(new ChromeDriver());
     }
 

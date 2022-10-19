@@ -19,11 +19,11 @@ public class MoviePage extends Page{
 
     public MoviePage(TestSession testSession){
         super(testSession);
-
-        // adjust page for tablet formfactor
+     
+         //adjust page for tablet formfactor
         WebElement showMoreLink = this.testSession.driverWait().until(
             ExpectedConditions.presenceOfElementLocated(
-              By.cssSelector("a[data-testid='title-pc-expand-more-button']")));
+              By.cssSelector("button[data-testid=\"title-pc-expand-more-button\"]"))); //TopDetails(about director etc.,)
        
         if(showMoreLink.isDisplayed()){
             showMoreLink.click();
@@ -73,6 +73,24 @@ public class MoviePage extends Page{
      **/
     public List<String> genres(){
         List<String> genres = new ArrayList<>();
+        List<WebElement> credits = this.testSession.driverWait().until(
+            ExpectedConditions.presenceOfAllElementsLocatedBy(
+              By.cssSelector(".ipc-chip-list--baseAlt")));
+
+        // traverse credits sections to find the section with Writers
+        for(WebElement credit:credits){
+            try{
+                    // traverse list of writers on page to add to writers list
+                    List<WebElement> writersElements = credit.findElements(By.cssSelector(".ipc-chip__text"));
+                    for(int i = 0;i< writersElements.size(); i++){
+                        genres.add(writersElements.get(i).getText());
+                        //System.out.println(writersElements.get(i).getText());
+                    }
+                    break;
+                
+            }catch(NoSuchElementException e){}
+        }
+
         
         // if genres list is empty throw exception
         if(genres.isEmpty()){
@@ -89,7 +107,7 @@ public class MoviePage extends Page{
     public String releaseYear(){
         return this.testSession.driverWait().until(
             ExpectedConditions.presenceOfElementLocated(
-                By.cssSelector("ul[data-testid='hero-title-block__metadata']")
+                By.cssSelector("ul[data-testid='hero-title-block__metadata'] li:nth-child(1)")
             ) 
         ).getText();
     }
@@ -108,10 +126,10 @@ public class MoviePage extends Page{
         // traverse credits sections to find the section with Writers
         for(WebElement credit:credits){
             try{
-                if(credit.findElement(By.cssSelector("span")).getText().equalsIgnoreCase("Writers")){
+                if(credit.findElement(By.cssSelector(".ipc-metadata-list-item__label")).getText().equalsIgnoreCase("Writers")){
                     // traverse list of writers on page to add to writers list
-                    List<WebElement> writersElements = credit.findElements(By.cssSelector("a"));
-                    for(int i = writersElements.size()-1; i >= 0 ; i--){
+                    List<WebElement> writersElements = credit.findElements(By.cssSelector("a[class=\"ipc-metadata-list-item__list-content-item ipc-metadata-list-item__list-content-item--link\"]"));
+                    for(int i = 0;i< writersElements.size(); i++){
                         writers.add(writersElements.get(i).getText());
                     }
                     break;
