@@ -73,7 +73,7 @@ public class TestSession {
 //        chromeOptions.setPageLoadStrategy(PageLoadStrategy.NONE);
 
        
-        return new TestSession(new ChromeDriver());
+        return new TestSession(new ChromeDriver());//need to pass the object(chromeOptions) 
     }
 
 }
