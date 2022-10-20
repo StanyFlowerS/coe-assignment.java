@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="14" passed="7" failed="7" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-20T10:09:52 IST" name="Default suite" finished-at="2022-10-20T10:13:11 IST" duration-ms="198527">
+  <suite started-at="2022-10-20T11:47:30 IST" name="Default suite" finished-at="2022-10-20T12:03:52 IST" duration-ms="982664">
     <groups>
     </groups>
-    <test started-at="2022-10-20T10:09:52 IST" name="Default test" finished-at="2022-10-20T10:13:11 IST" duration-ms="198527">
+    <test started-at="2022-10-20T11:47:30 IST" name="Default test" finished-at="2022-10-20T12:03:52 IST" duration-ms="982664">
       <class name="com.qt.qualithon.test.MovieSearchTest">
-        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:09:52 IST" name="testSessionSetUp" finished-at="2022-10-20T10:09:55 IST" duration-ms="2961" status="PASS">
+        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:47:30 IST" name="testSessionSetUp" finished-at="2022-10-20T11:47:33 IST" duration-ms="2995" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSessionSetUp -->
-        <test-method signature="testMovieMetadataOnWebHasCorrectDirectorName(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:09:55 IST" name="testMovieMetadataOnWebHasCorrectDirectorName" data-provider="popularMovieTitles" finished-at="2022-10-20T10:10:09 IST" duration-ms="13361" status="PASS">
+        <test-method signature="testMovieMetadataOnWebHasCorrectDirectorName(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:47:33 IST" name="testMovieMetadataOnWebHasCorrectDirectorName" data-provider="popularMovieTitles" finished-at="2022-10-20T11:47:45 IST" duration-ms="11893" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMovieMetadataOnWebHasCorrectDirectorName -->
-        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:10:09 IST" name="testTearDown" finished-at="2022-10-20T10:10:09 IST" duration-ms="350" status="PASS">
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:47:45 IST" name="testTearDown" finished-at="2022-10-20T11:47:45 IST" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTearDown -->
-        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:10:09 IST" name="testSessionSetUp" finished-at="2022-10-20T10:10:11 IST" duration-ms="1753" status="PASS">
+        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:47:45 IST" name="testSessionSetUp" finished-at="2022-10-20T11:47:47 IST" duration-ms="1514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSessionSetUp -->
-        <test-method signature="testMovieMetadataOnWebHasCorrectDirectorName(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:10:11 IST" name="testMovieMetadataOnWebHasCorrectDirectorName" data-provider="popularMovieTitles" finished-at="2022-10-20T10:10:15 IST" duration-ms="4391" status="FAIL">
+        <test-method signature="testMovieMetadataOnWebHasCorrectDirectorName(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:47:47 IST" name="testMovieMetadataOnWebHasCorrectDirectorName" data-provider="popularMovieTitles" finished-at="2022-10-20T11:47:56 IST" duration-ms="9518" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,90 +38,18 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".findHeader"}
-  (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'QT-INBG-LT0300', ip: '10.20.15.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2d8422d8dda57f2d808eaccd93ab3b34, findElement {using=css selector, value=.findHeader}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56975}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56975/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2d8422d8dda57f2d808eaccd93ab3b34]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".findHeader"}
-  (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'QT-INBG-LT0300', ip: '10.20.15.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2d8422d8dda57f2d808eaccd93ab3b34, findElement {using=css selector, value=.findHeader}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56975}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56975/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2d8422d8dda57f2d808eaccd93ab3b34
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at com.qt.qualithon.ui.imdb.ResultsPage.movieResultLinks(ResultsPage.java:38)
-at com.qt.qualithon.ui.imdb.ResultsPage.firstMovieResult(ResultsPage.java:66)
-at com.qt.qualithon.test.MovieSearchTest.testMovieMetadataOnWebHasCorrectDirectorName(MovieSearchTest.java:103)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMovieMetadataOnWebHasCorrectDirectorName -->
-        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:10:15 IST" name="testTearDown" finished-at="2022-10-20T10:10:15 IST" duration-ms="274" status="PASS">
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:47:56 IST" name="testTearDown" finished-at="2022-10-20T11:47:56 IST" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTearDown -->
-        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:10:15 IST" name="testSessionSetUp" finished-at="2022-10-20T10:10:17 IST" duration-ms="1720" status="PASS">
+        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:47:56 IST" name="testSessionSetUp" finished-at="2022-10-20T11:47:58 IST" duration-ms="1489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSessionSetUp -->
-        <test-method signature="testMovieMetadataOnWebHasCorrectGenres(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:10:17 IST" name="testMovieMetadataOnWebHasCorrectGenres" data-provider="popularMovieTitles" finished-at="2022-10-20T10:10:28 IST" duration-ms="10754" status="PASS">
+        <test-method signature="testMovieMetadataOnWebHasCorrectGenres(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:47:58 IST" name="testMovieMetadataOnWebHasCorrectGenres" data-provider="popularMovieTitles" finished-at="2022-10-20T11:48:08 IST" duration-ms="10273" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -132,15 +60,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMovieMetadataOnWebHasCorrectGenres -->
-        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:10:28 IST" name="testTearDown" finished-at="2022-10-20T10:10:28 IST" duration-ms="347" status="PASS">
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:48:08 IST" name="testTearDown" finished-at="2022-10-20T11:48:08 IST" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTearDown -->
-        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:10:28 IST" name="testSessionSetUp" finished-at="2022-10-20T10:10:30 IST" duration-ms="1725" status="PASS">
+        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:48:08 IST" name="testSessionSetUp" finished-at="2022-10-20T11:48:10 IST" duration-ms="1507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSessionSetUp -->
-        <test-method signature="testMovieMetadataOnWebHasCorrectGenres(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:10:30 IST" name="testMovieMetadataOnWebHasCorrectGenres" data-provider="popularMovieTitles" finished-at="2022-10-20T10:10:46 IST" duration-ms="15820" status="FAIL">
+        <test-method signature="testMovieMetadataOnWebHasCorrectGenres(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:48:10 IST" name="testMovieMetadataOnWebHasCorrectGenres" data-provider="popularMovieTitles" finished-at="2022-10-20T11:51:38 IST" duration-ms="207790" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -148,45 +76,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".findHeader"}
-  (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.cssSelector: .findList .findResult a (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'QT-INBG-LT0300', ip: '10.20.15.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [974862643f6b39f0e87b77c9262adb13, findElement {using=css selector, value=.findHeader}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57070}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57070/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 974862643f6b39f0e87b77c9262adb13]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63181/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f339f9dab56f119a39358ab7ca637e1]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".findHeader"}
-  (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: .findList .findResult a (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'QT-INBG-LT0300', ip: '10.20.15.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [974862643f6b39f0e87b77c9262adb13, findElement {using=css selector, value=.findHeader}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57070}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57070/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 974862643f6b39f0e87b77c9262adb13
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at com.qt.qualithon.ui.imdb.ResultsPage.movieResultLinks(ResultsPage.java:38)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63181/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f339f9dab56f119a39358ab7ca637e1
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.qt.qualithon.ui.imdb.ResultsPage.movieResultLinks(ResultsPage.java:39)
 at com.qt.qualithon.ui.imdb.ResultsPage.firstMovieResult(ResultsPage.java:66)
 at com.qt.qualithon.test.MovieSearchTest.testMovieMetadataOnWebHasCorrectGenres(MovieSearchTest.java:143)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -219,19 +127,19 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMovieMetadataOnWebHasCorrectGenres -->
-        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:10:46 IST" name="testTearDown" finished-at="2022-10-20T10:10:46 IST" duration-ms="239" status="PASS">
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:51:38 IST" name="testTearDown" finished-at="2022-10-20T11:51:38 IST" duration-ms="311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTearDown -->
-        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:10:46 IST" name="testSessionSetUp" finished-at="2022-10-20T10:10:48 IST" duration-ms="1545" status="PASS">
+        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:51:38 IST" name="testSessionSetUp" finished-at="2022-10-20T11:51:40 IST" duration-ms="1642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSessionSetUp -->
-        <test-method signature="testMovieMetadataOnWebHasCorrectMaturityRating(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:10:48 IST" name="testMovieMetadataOnWebHasCorrectMaturityRating" data-provider="popularMovieTitles" finished-at="2022-10-20T10:10:57 IST" duration-ms="9852" status="PASS">
+        <test-method signature="testMovieMetadataOnWebHasCorrectMaturityRating(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:51:40 IST" name="testMovieMetadataOnWebHasCorrectMaturityRating" data-provider="popularMovieTitles" finished-at="2022-10-20T11:51:50 IST" duration-ms="10130" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -242,15 +150,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMovieMetadataOnWebHasCorrectMaturityRating -->
-        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:10:57 IST" name="testTearDown" finished-at="2022-10-20T10:10:58 IST" duration-ms="381" status="PASS">
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:51:50 IST" name="testTearDown" finished-at="2022-10-20T11:51:50 IST" duration-ms="277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTearDown -->
-        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:10:58 IST" name="testSessionSetUp" finished-at="2022-10-20T10:11:00 IST" duration-ms="1828" status="PASS">
+        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:51:50 IST" name="testSessionSetUp" finished-at="2022-10-20T11:51:52 IST" duration-ms="1732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSessionSetUp -->
-        <test-method signature="testMovieMetadataOnWebHasCorrectMaturityRating(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:11:00 IST" name="testMovieMetadataOnWebHasCorrectMaturityRating" data-provider="popularMovieTitles" finished-at="2022-10-20T10:11:18 IST" duration-ms="18005" status="FAIL">
+        <test-method signature="testMovieMetadataOnWebHasCorrectMaturityRating(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:51:52 IST" name="testMovieMetadataOnWebHasCorrectMaturityRating" data-provider="popularMovieTitles" finished-at="2022-10-20T11:55:09 IST" duration-ms="197518" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -258,28 +166,30 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".findHeader"}
+              <![CDATA[stale element reference: element is not attached to the page document
   (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'QT-INBG-LT0300', ip: '10.20.15.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d5f7b3ca46c5c705b6565083cda29857, findElement {using=css selector, value=.findHeader}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57212/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d5f7b3ca46c5c705b6565083cda29857]]>
+Command: [4e1e4008071b2d2478c8e4698cb1a0b0, submitElement {id=b508ee47-5c7e-4045-ab32-e6c1ae1569a0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63387/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4e1e4008071b2d2478c8e4698cb1a0b0)] -> css selector: input#suggestion-search]
+Session ID: 4e1e4008071b2d2478c8e4698cb1a0b0]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".findHeader"}
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'QT-INBG-LT0300', ip: '10.20.15.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d5f7b3ca46c5c705b6565083cda29857, findElement {using=css selector, value=.findHeader}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57212/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d5f7b3ca46c5c705b6565083cda29857
+Command: [4e1e4008071b2d2478c8e4698cb1a0b0, submitElement {id=b508ee47-5c7e-4045-ab32-e6c1ae1569a0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63387/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4e1e4008071b2d2478c8e4698cb1a0b0)] -> css selector: input#suggestion-search]
+Session ID: 4e1e4008071b2d2478c8e4698cb1a0b0
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -292,13 +202,10 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at com.qt.qualithon.ui.imdb.ResultsPage.movieResultLinks(ResultsPage.java:38)
-at com.qt.qualithon.ui.imdb.ResultsPage.firstMovieResult(ResultsPage.java:66)
-at com.qt.qualithon.test.MovieSearchTest.testMovieMetadataOnWebHasCorrectMaturityRating(MovieSearchTest.java:164)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:82)
+at com.qt.qualithon.ui.imdb.HomePage.search(HomePage.java:36)
+at com.qt.qualithon.test.MovieSearchTest.testMovieMetadataOnWebHasCorrectMaturityRating(MovieSearchTest.java:163)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -329,19 +236,19 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMovieMetadataOnWebHasCorrectMaturityRating -->
-        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:11:18 IST" name="testTearDown" finished-at="2022-10-20T10:11:18 IST" duration-ms="284" status="PASS">
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:55:09 IST" name="testTearDown" finished-at="2022-10-20T11:55:10 IST" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTearDown -->
-        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:11:18 IST" name="testSessionSetUp" finished-at="2022-10-20T10:11:19 IST" duration-ms="1548" status="PASS">
+        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:55:10 IST" name="testSessionSetUp" finished-at="2022-10-20T11:55:11 IST" duration-ms="1812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSessionSetUp -->
-        <test-method signature="testMovieMetadataOnWebHasCorrectMovieRatingScore(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:11:19 IST" name="testMovieMetadataOnWebHasCorrectMovieRatingScore" data-provider="popularMovieTitles" finished-at="2022-10-20T10:11:31 IST" duration-ms="11983" status="PASS">
+        <test-method signature="testMovieMetadataOnWebHasCorrectMovieRatingScore(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:55:11 IST" name="testMovieMetadataOnWebHasCorrectMovieRatingScore" data-provider="popularMovieTitles" finished-at="2022-10-20T11:55:23 IST" duration-ms="11275" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -352,15 +259,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMovieMetadataOnWebHasCorrectMovieRatingScore -->
-        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:11:31 IST" name="testTearDown" finished-at="2022-10-20T10:11:32 IST" duration-ms="308" status="PASS">
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:55:23 IST" name="testTearDown" finished-at="2022-10-20T11:55:23 IST" duration-ms="282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTearDown -->
-        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:11:32 IST" name="testSessionSetUp" finished-at="2022-10-20T10:11:34 IST" duration-ms="1737" status="PASS">
+        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:55:23 IST" name="testSessionSetUp" finished-at="2022-10-20T11:55:24 IST" duration-ms="1518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSessionSetUp -->
-        <test-method signature="testMovieMetadataOnWebHasCorrectMovieRatingScore(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:11:34 IST" name="testMovieMetadataOnWebHasCorrectMovieRatingScore" data-provider="popularMovieTitles" finished-at="2022-10-20T10:11:45 IST" duration-ms="11135" status="PASS">
+        <test-method signature="testMovieMetadataOnWebHasCorrectMovieRatingScore(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:55:24 IST" name="testMovieMetadataOnWebHasCorrectMovieRatingScore" data-provider="popularMovieTitles" finished-at="2022-10-20T11:55:36 IST" duration-ms="11993" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -371,15 +278,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMovieMetadataOnWebHasCorrectMovieRatingScore -->
-        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:11:45 IST" name="testTearDown" finished-at="2022-10-20T10:11:45 IST" duration-ms="309" status="PASS">
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:55:36 IST" name="testTearDown" finished-at="2022-10-20T11:55:37 IST" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTearDown -->
-        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:11:45 IST" name="testSessionSetUp" finished-at="2022-10-20T10:11:47 IST" duration-ms="1681" status="PASS">
+        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:55:37 IST" name="testSessionSetUp" finished-at="2022-10-20T11:55:38 IST" duration-ms="1559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSessionSetUp -->
-        <test-method signature="testMovieMetadataOnWebHasCorrectReleaseYear(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:11:47 IST" name="testMovieMetadataOnWebHasCorrectReleaseYear" data-provider="popularMovieTitles" finished-at="2022-10-20T10:12:00 IST" duration-ms="13595" status="PASS">
+        <test-method signature="testMovieMetadataOnWebHasCorrectReleaseYear(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:55:38 IST" name="testMovieMetadataOnWebHasCorrectReleaseYear" data-provider="popularMovieTitles" finished-at="2022-10-20T11:58:55 IST" duration-ms="197150" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -387,47 +294,30 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMovieMetadataOnWebHasCorrectReleaseYear -->
-        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:12:00 IST" name="testTearDown" finished-at="2022-10-20T10:12:01 IST" duration-ms="295" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTearDown -->
-        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:12:01 IST" name="testSessionSetUp" finished-at="2022-10-20T10:12:02 IST" duration-ms="1743" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSessionSetUp -->
-        <test-method signature="testMovieMetadataOnWebHasCorrectReleaseYear(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:12:02 IST" name="testMovieMetadataOnWebHasCorrectReleaseYear" data-provider="popularMovieTitles" finished-at="2022-10-20T10:12:07 IST" duration-ms="4683" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[The Dark Knight Rises]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".findHeader"}
+              <![CDATA[stale element reference: element is not attached to the page document
   (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'QT-INBG-LT0300', ip: '10.20.15.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [49c8639588d98f378b7e4a548a292a1f, findElement {using=css selector, value=.findHeader}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57468/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 49c8639588d98f378b7e4a548a292a1f]]>
+Command: [a398e5f8e09edc0874ab0deedb0c4596, submitElement {id=cdc9eeb0-9699-48fe-8b8c-9054d4365176}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63645/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a398e5f8e09edc0874ab0deedb0c4596)] -> css selector: input#suggestion-search]
+Session ID: a398e5f8e09edc0874ab0deedb0c4596]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".findHeader"}
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'QT-INBG-LT0300', ip: '10.20.15.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [49c8639588d98f378b7e4a548a292a1f, findElement {using=css selector, value=.findHeader}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57468/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 49c8639588d98f378b7e4a548a292a1f
+Command: [a398e5f8e09edc0874ab0deedb0c4596, submitElement {id=cdc9eeb0-9699-48fe-8b8c-9054d4365176}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63645/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a398e5f8e09edc0874ab0deedb0c4596)] -> css selector: input#suggestion-search]
+Session ID: a398e5f8e09edc0874ab0deedb0c4596
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -440,11 +330,79 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at com.qt.qualithon.ui.imdb.ResultsPage.movieResultLinks(ResultsPage.java:38)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:82)
+at com.qt.qualithon.ui.imdb.HomePage.search(HomePage.java:36)
+at com.qt.qualithon.test.MovieSearchTest.testMovieMetadataOnWebHasCorrectReleaseYear(MovieSearchTest.java:82)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMovieMetadataOnWebHasCorrectReleaseYear -->
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:58:55 IST" name="testTearDown" finished-at="2022-10-20T11:58:56 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTearDown -->
+        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:58:56 IST" name="testSessionSetUp" finished-at="2022-10-20T11:58:57 IST" duration-ms="1523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSessionSetUp -->
+        <test-method signature="testMovieMetadataOnWebHasCorrectReleaseYear(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:58:57 IST" name="testMovieMetadataOnWebHasCorrectReleaseYear" data-provider="popularMovieTitles" finished-at="2022-10-20T11:59:32 IST" duration-ms="34702" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Dark Knight Rises]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.cssSelector: .findList .findResult a (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'QT-INBG-LT0300', ip: '10.20.15.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63793/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf9847d6bcbd78e646d1a05ff2a9a91f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: .findList .findResult a (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'QT-INBG-LT0300', ip: '10.20.15.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63793/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf9847d6bcbd78e646d1a05ff2a9a91f
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.qt.qualithon.ui.imdb.ResultsPage.movieResultLinks(ResultsPage.java:39)
 at com.qt.qualithon.ui.imdb.ResultsPage.firstMovieResult(ResultsPage.java:66)
 at com.qt.qualithon.test.MovieSearchTest.testMovieMetadataOnWebHasCorrectReleaseYear(MovieSearchTest.java:83)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -477,19 +435,19 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMovieMetadataOnWebHasCorrectReleaseYear -->
-        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:12:07 IST" name="testTearDown" finished-at="2022-10-20T10:12:07 IST" duration-ms="282" status="PASS">
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:59:32 IST" name="testTearDown" finished-at="2022-10-20T11:59:32 IST" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTearDown -->
-        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:12:07 IST" name="testSessionSetUp" finished-at="2022-10-20T10:12:09 IST" duration-ms="1733" status="PASS">
+        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:59:32 IST" name="testSessionSetUp" finished-at="2022-10-20T11:59:34 IST" duration-ms="1463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSessionSetUp -->
-        <test-method signature="testMovieMetadataOnWebHasCorrectWriters(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:12:09 IST" name="testMovieMetadataOnWebHasCorrectWriters" data-provider="popularMovieTitles" finished-at="2022-10-20T10:12:39 IST" duration-ms="29868" status="FAIL">
+        <test-method signature="testMovieMetadataOnWebHasCorrectWriters(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T11:59:34 IST" name="testMovieMetadataOnWebHasCorrectWriters" data-provider="popularMovieTitles" finished-at="2022-10-20T12:02:25 IST" duration-ms="171529" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -497,45 +455,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".findHeader"}
-  (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.cssSelector: .findList .findResult a (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'QT-INBG-LT0300', ip: '10.20.15.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [92f91ddaa98c2823dc0f7724071d602d, findElement {using=css selector, value=.findHeader}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57513/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 92f91ddaa98c2823dc0f7724071d602d]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63837}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63837/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c34b17b80104cc72d7c1978725efdff]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".findHeader"}
-  (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: .findList .findResult a (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'QT-INBG-LT0300', ip: '10.20.15.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [92f91ddaa98c2823dc0f7724071d602d, findElement {using=css selector, value=.findHeader}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57513/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 92f91ddaa98c2823dc0f7724071d602d
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at com.qt.qualithon.ui.imdb.ResultsPage.movieResultLinks(ResultsPage.java:38)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63837}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63837/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c34b17b80104cc72d7c1978725efdff
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.qt.qualithon.ui.imdb.ResultsPage.movieResultLinks(ResultsPage.java:39)
 at com.qt.qualithon.ui.imdb.ResultsPage.firstMovieResult(ResultsPage.java:66)
 at com.qt.qualithon.test.MovieSearchTest.testMovieMetadataOnWebHasCorrectWriters(MovieSearchTest.java:123)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -568,19 +506,19 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMovieMetadataOnWebHasCorrectWriters -->
-        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:12:39 IST" name="testTearDown" finished-at="2022-10-20T10:12:39 IST" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T12:02:25 IST" name="testTearDown" finished-at="2022-10-20T12:02:25 IST" duration-ms="287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTearDown -->
-        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:12:39 IST" name="testSessionSetUp" finished-at="2022-10-20T10:12:41 IST" duration-ms="1963" status="PASS">
+        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T12:02:25 IST" name="testSessionSetUp" finished-at="2022-10-20T12:02:27 IST" duration-ms="1492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSessionSetUp -->
-        <test-method signature="testMovieMetadataOnWebHasCorrectWriters(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:12:41 IST" name="testMovieMetadataOnWebHasCorrectWriters" data-provider="popularMovieTitles" finished-at="2022-10-20T10:12:50 IST" duration-ms="9213" status="FAIL">
+        <test-method signature="testMovieMetadataOnWebHasCorrectWriters(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T12:02:27 IST" name="testMovieMetadataOnWebHasCorrectWriters" data-provider="popularMovieTitles" finished-at="2022-10-20T12:03:02 IST" duration-ms="35419" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -588,45 +526,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".findHeader"}
-  (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.cssSelector: .findList .findResult a (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'QT-INBG-LT0300', ip: '10.20.15.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bfb9bf1699ae5aa9d4003c4468cc8601, findElement {using=css selector, value=.findHeader}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57616}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57616/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bfb9bf1699ae5aa9d4003c4468cc8601]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63975}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63975/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 25cdfcf4edab4f5aa2398bf1fe3034f8]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".findHeader"}
-  (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: .findList .findResult a (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'QT-INBG-LT0300', ip: '10.20.15.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bfb9bf1699ae5aa9d4003c4468cc8601, findElement {using=css selector, value=.findHeader}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57616}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57616/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bfb9bf1699ae5aa9d4003c4468cc8601
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at com.qt.qualithon.ui.imdb.ResultsPage.movieResultLinks(ResultsPage.java:38)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63975}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63975/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 25cdfcf4edab4f5aa2398bf1fe3034f8
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.qt.qualithon.ui.imdb.ResultsPage.movieResultLinks(ResultsPage.java:39)
 at com.qt.qualithon.ui.imdb.ResultsPage.firstMovieResult(ResultsPage.java:66)
 at com.qt.qualithon.test.MovieSearchTest.testMovieMetadataOnWebHasCorrectWriters(MovieSearchTest.java:123)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -659,19 +577,19 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMovieMetadataOnWebHasCorrectWriters -->
-        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:12:50 IST" name="testTearDown" finished-at="2022-10-20T10:12:51 IST" duration-ms="363" status="PASS">
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T12:03:02 IST" name="testTearDown" finished-at="2022-10-20T12:03:03 IST" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTearDown -->
-        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:12:51 IST" name="testSessionSetUp" finished-at="2022-10-20T10:12:52 IST" duration-ms="1561" status="PASS">
+        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T12:03:03 IST" name="testSessionSetUp" finished-at="2022-10-20T12:03:04 IST" duration-ms="1515" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSessionSetUp -->
-        <test-method signature="testSearchByExactMovieTitleReturnsMovieAsFirstResult(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:12:52 IST" name="testSearchByExactMovieTitleReturnsMovieAsFirstResult" data-provider="popularMovieTitles" finished-at="2022-10-20T10:12:59 IST" duration-ms="7010" status="FAIL">
+        <test-method signature="testSearchByExactMovieTitleReturnsMovieAsFirstResult(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T12:03:04 IST" name="testSearchByExactMovieTitleReturnsMovieAsFirstResult" data-provider="popularMovieTitles" finished-at="2022-10-20T12:03:15 IST" duration-ms="11280" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -679,45 +597,44 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByExactMovieTitleReturnsMovieAsFirstResult -->
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T12:03:15 IST" name="testTearDown" finished-at="2022-10-20T12:03:16 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTearDown -->
+        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T12:03:16 IST" name="testSessionSetUp" finished-at="2022-10-20T12:03:17 IST" duration-ms="1663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSessionSetUp -->
+        <test-method signature="testSearchByExactMovieTitleReturnsMovieAsFirstResult(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T12:03:17 IST" name="testSearchByExactMovieTitleReturnsMovieAsFirstResult" data-provider="popularMovieTitles" finished-at="2022-10-20T12:03:52 IST" duration-ms="34845" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Dark Knight Rises]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".findHeader"}
-  (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.cssSelector: .findList .findResult a (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'QT-INBG-LT0300', ip: '10.20.15.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1dff351da82cdb518bb16fe0ddfd3e65, findElement {using=css selector, value=.findHeader}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57697}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57697/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1dff351da82cdb518bb16fe0ddfd3e65]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64085/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 541c14ea6ad70e87d5ec69de55f7d38e]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".findHeader"}
-  (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: .findList .findResult a (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'QT-INBG-LT0300', ip: '10.20.15.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1dff351da82cdb518bb16fe0ddfd3e65, findElement {using=css selector, value=.findHeader}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57697}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57697/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1dff351da82cdb518bb16fe0ddfd3e65
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at com.qt.qualithon.ui.imdb.ResultsPage.movieResultLinks(ResultsPage.java:38)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\STANY~1.FLO\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64085/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 541c14ea6ad70e87d5ec69de55f7d38e
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.qt.qualithon.ui.imdb.ResultsPage.movieResultLinks(ResultsPage.java:39)
 at com.qt.qualithon.ui.imdb.ResultsPage.firstMovieResult(ResultsPage.java:66)
 at com.qt.qualithon.test.MovieSearchTest.testSearchByExactMovieTitleReturnsMovieAsFirstResult(MovieSearchTest.java:65)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -750,30 +667,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchByExactMovieTitleReturnsMovieAsFirstResult -->
-        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:12:59 IST" name="testTearDown" finished-at="2022-10-20T10:12:59 IST" duration-ms="234" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTearDown -->
-        <test-method is-config="true" signature="testSessionSetUp()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:12:59 IST" name="testSessionSetUp" finished-at="2022-10-20T10:13:01 IST" duration-ms="1520" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSessionSetUp -->
-        <test-method signature="testSearchByExactMovieTitleReturnsMovieAsFirstResult(java.lang.String)[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:13:01 IST" name="testSearchByExactMovieTitleReturnsMovieAsFirstResult" data-provider="popularMovieTitles" finished-at="2022-10-20T10:13:10 IST" duration-ms="9514" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[The Dark Knight Rises]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchByExactMovieTitleReturnsMovieAsFirstResult -->
-        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T10:13:10 IST" name="testTearDown" finished-at="2022-10-20T10:13:11 IST" duration-ms="326" status="PASS">
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.qt.qualithon.test.MovieSearchTest@1e683a3e]" started-at="2022-10-20T12:03:52 IST" name="testTearDown" finished-at="2022-10-20T12:03:52 IST" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTearDown -->

@@ -35,24 +35,24 @@ public class ResultsPage extends Page{
     	
  
     	
-    	if(this.testSession.driver().findElement(By.cssSelector(".findHeader")).isDisplayed()) {//.findHeader
+    	//if(this.testSession.driver().findElement(By.cssSelector(".findHeader")).isDisplayed()) {//.findHeader
         List<WebElement> resultLinks = this.testSession.driverWait().until(
             ExpectedConditions.visibilityOfAllElementsLocatedBy(
                 By.cssSelector(".findList .findResult a")
             )
         );
         return resultLinks;
-    	}
-    	else{//section[data-testid="find-results-section-title"]
-    		 
-
-    		    		List<WebElement> resultLinks = this.testSession.driverWait().until(
-                ExpectedConditions.visibilityOfAllElementsLocatedBy(
-                    By.cssSelector("li[class=\"ipc-metadata-list-summary-item ipc-metadata-list-summary-item--click find-result-item find-title-result\"]​")
-                )
-            );
-            return resultLinks;
-   		      }
+//    	}
+//    	else{//section[data-testid="find-results-section-title"]
+//    		 
+//
+//    		    		List<WebElement> resultLinks = this.testSession.driverWait().until(
+//                ExpectedConditions.visibilityOfAllElementsLocatedBy(
+//                    By.cssSelector("li[class=\"ipc-metadata-list-summary-item ipc-metadata-list-summary-item--click find-result-item find-title-result\"]​")
+//                )
+//            );
+//            return resultLinks;
+//   		      }
 
         	
     }
