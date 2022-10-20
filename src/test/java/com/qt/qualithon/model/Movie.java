@@ -14,10 +14,27 @@ public class Movie{
     String director;
     List<String> genres;
     List<String> writers;
+    String maturityRating;
+    String rating;
+
 
     public Movie(){
         this.genres = new ArrayList<>();
         this.writers = new ArrayList<>();
+    }
+    
+    public void setMaturityRating(String maturityRating){
+        this.maturityRating = maturityRating;
+    }
+    public String maturityRating(){
+        return this.maturityRating;
+    }
+
+    public void setRating(String rating){
+        this.rating = rating;
+    }
+    public String rating(){
+        return this.rating;
     }
 
     /**

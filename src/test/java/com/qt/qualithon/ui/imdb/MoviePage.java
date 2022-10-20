@@ -143,5 +143,30 @@ public class MoviePage extends Page{
         }
         return writers;
     }
+    
+   
+
+	public String maturityRating() {
+		 String maturityRating= this.testSession.driverWait().until(
+	            ExpectedConditions.presenceOfElementLocated(
+	                By.cssSelector("ul[data-testid='hero-title-block__metadata'] li:nth-child(2) a")
+	            ) 
+	        ).getText();
+		 System.out.println(maturityRating);
+		 return maturityRating;
+	    
+	}
+	
+	public String rating() {
+		 String rating= this.testSession.driverWait().until(
+	            ExpectedConditions.presenceOfElementLocated(
+	                By.cssSelector("div[data-testid=\"hero-rating-bar__aggregate-rating__score\"] span:nth-child(1)")
+	            ) 
+	        ).getText();
+		 System.out.println(rating);
+		 return rating;
+	    
+	}
+    
 
 }
