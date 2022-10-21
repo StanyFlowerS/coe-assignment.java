@@ -34,11 +34,12 @@ public class ResultsPage extends Page{
     	
     	
 		JavascriptExecutor js =(JavascriptExecutor) this.testSession.driver();
+		this.testSession.driverWait();
 
- 
     	for(int i=0;i<=3;i++){
+
     	
-    			if(!this.testSession.driver().findElement(By.cssSelector(".findHeader")).isDisplayed()) {//.findHeader
+    			if(!js.executeScript("return document.readyState").equals("complete")) {//.findHeader
     				// stop loading
     				js.executeScript("window.stop();");
     				this.testSession.driverWait();
@@ -55,6 +56,7 @@ public class ResultsPage extends Page{
     			
     			if(i==3) {
     				System.out.println("Can't able to get the page");
+    				
     			}
     	}
     	// your expected page should be present
