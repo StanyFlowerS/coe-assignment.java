@@ -5,6 +5,7 @@ import com.qt.qualithon.ui.Page;
 import com.qt.qualithon.model.Movie;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -32,17 +33,38 @@ public class ResultsPage extends Page{
     public List<WebElement> movieResultLinks(){
     	
     	
-    	
+		JavascriptExecutor js =(JavascriptExecutor) this.testSession.driver();
+
  
+    	for(int i=0;i<=3;i++){
     	
-    	//if(this.testSession.driver().findElement(By.cssSelector(".findHeader")).isDisplayed()) {//.findHeader
+    			if(!this.testSession.driver().findElement(By.cssSelector(".findHeader")).isDisplayed()) {//.findHeader
+    				// stop loading
+    				js.executeScript("window.stop();");
+    				this.testSession.driverWait();
+    				//for refresh
+    				this.testSession.driver().navigate().refresh();// refresh
+    				// seconds wait
+    				this.testSession.driverWait();
+
+    			}
+    			else {
+
+    				break;
+    			}
+    			
+    			if(i==3) {
+    				System.out.println("Can't able to get the page");
+    			}
+    	}
+    	// your expected page should be present
         List<WebElement> resultLinks = this.testSession.driverWait().until(
             ExpectedConditions.visibilityOfAllElementsLocatedBy(
                 By.cssSelector(".findList .findResult a")
             )
         );
         return resultLinks;
-//    	}
+    	}
 //    	else{//section[data-testid="find-results-section-title"]
 //    		 
 //
@@ -55,7 +77,7 @@ public class ResultsPage extends Page{
 //   		      }
 
         	
-    }
+    
 
     /**
      * open first movie result link from result page and return movie page page object

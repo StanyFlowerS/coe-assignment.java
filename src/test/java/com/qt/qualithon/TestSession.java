@@ -68,9 +68,8 @@ public class TestSession {
      * @return    instance of TestSession with local google chrome browser
      **/
     public static TestSession ChromeTestSession(){
-//    	ChromeOptions chromeOptions = new ChromeOptions();
-//
-//        chromeOptions.setPageLoadStrategy(PageLoadStrategy.NONE);
+    //	ChromeOptions chromeOptions = new ChromeOptions();
+     //   chromeOptions.setPageLoadStrategy(PageLoadStrategy.NONE);
 
        
         return new TestSession(new ChromeDriver());//need to pass the object(chromeOptions) 
